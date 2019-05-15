@@ -8,7 +8,7 @@ This project was broken up into 4 major parts:
   1. Gathering Data
   2. Data Preparation
   3. Vectorization and Embedding
-  4. Model Fitting
+  4. Model 
 
 ### Gathering Data
 
@@ -27,6 +27,6 @@ Using a TensorFlow backend and Keras, keras.layers was used to vectorize and emb
 to analyze sentiment for 3 categories: Positives(1), Neutral(0), and Negatives(-1). 
 
 
-### Model Fitting
+### Model 
 
-Lastly the model was fitted to the Test and Train Data Sets resulting in a final ~ 97% accuracy. 
+An RNN architecture was used to build a model to learn on. Lastly the model was fitted to the Test and Train Data Sets resulting in a final ~ 97% accuracy. 
